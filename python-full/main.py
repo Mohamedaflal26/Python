@@ -6,6 +6,7 @@
 
 print (" I like pizza")
 
+# use.strip() method to remove whitespaces
 
 2 variable name
  
