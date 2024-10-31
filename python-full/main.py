@@ -1383,6 +1383,18 @@ if __name__ == "__main__":
     thread2.join()
 
     print("Both tasks are done.")    
+
+82. swapcase
+
+x = "ABCDEFGabcdefg"
+y = x.swapcase()
+print(y)
+
+83. title()
+
+x = "hello World"
+y = x.title()  #make the first character of each word to uppercase and other to lowercase
+print(y)
 """
 
 
