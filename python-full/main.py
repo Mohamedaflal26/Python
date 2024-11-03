@@ -1407,6 +1407,19 @@ dic2 = {"val":"poli"} #creating new dict
 dic3 = {"dic1":dic1.copy(),"dic2":dic2.copy()}  #making all dict into one
 print(dic3)
 
+85. prime number
+
+n = int(input())
+if n == 1 or n == 2:
+    print("its not a prime")
+else:    
+    for i in range(2, n):
+        if n%i == 0:
+            print("its not a prime")
+            break
+    else:
+        print("prime")
+
 """
 
 
