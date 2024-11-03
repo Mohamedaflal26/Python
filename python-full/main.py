@@ -1419,6 +1419,22 @@ else:
             break
     else:
         print("prime")
+84. vowel finder
+
+st = input()
+vowels = "aeiouAEIOU"
+chare = []
+count = 0
+for char in st:
+    if char in vowels:
+        count +=1
+        chare.append(char)
+print(chare)        
+        
+if count > 0:
+    print(count) 
+else:
+    ("no vowels found")
 
 """
 
