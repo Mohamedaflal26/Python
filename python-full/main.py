@@ -1396,6 +1396,17 @@ print(y)
 x = "hello World"
 y = x.title()  #make the first character of each word to uppercase and other to lowercase
 print(y)
+
+84. all ways of  dictionaries
+
+dic1 = {"nex":{"kes":"kor","po":"r"}}   #nestedloop
+dic1["car"] = "bugatti" #adding ney key value pair to dict
+
+dic2 = {"val":"poli"} #creating new dict
+
+dic3 = {"dic1":dic1.copy(),"dic2":dic2.copy()}  #making all dict into one
+print(dic3)
+
 """
 
 
